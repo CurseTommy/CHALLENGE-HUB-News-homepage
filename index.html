@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | News homepage</title>
+
+  <link rel="stylesheet" href="Style/style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body>
+
+  <main>
+
+    <header>
+
+      <div class="logo">
+        <img src="./assets/images/logo.svg" alt="Logo">
+      </div>
+
+      <div class="menu__icon none">
+        <img class="menu__open" id="menu-open" src="./assets/images/icon-menu.svg" alt="Menu Icon">
+      </div>
+
+      <div class="dimming__block none" id="dimming"></div>
+
+      <div class="menu none" id="menu">
+        <img class="menu__close" id="menu-close" src="./assets/images/icon-menu-close.svg" alt="Menu Close Icon">
+        <ul>
+          <li>Home</li>
+          <li>New</li>
+          <li>Popular</li>
+          <li>Trending</li>
+          <li>Categories</li>
+        </ul>
+      </div>
+
+      <ul class="desktop">
+        <li>Home</li>
+        <li>New</li>
+        <li>Popular</li>
+        <li>Trending</li>
+        <li>Categories</li>
+      </ul>
+
+    </header>
+
+    <section class="main__content">
+
+      <section class="illustration">
+        <picture>
+          <source media="(max-width:650px)" srcset="./assets/images/image-web-3-mobile.jpg">
+          <img src="./assets/images/image-web-3-desktop.jpg" alt="" style="width:100%;">
+        </picture>
+      </section>
+
+      <section class="desc">
+        <div class="heading">
+          <h1>The Bright Future of Web 3.0?</h1>
+        </div>
+
+        <div class="description__site">
+          <p>
+            We dive into the next evolution of the web that claims to put the power of the platforms back into the hands
+            of
+            the
+            people.
+            But is it really fulfilling its promise?
+          </p>
+          <button>Read more</button>
+        </div>
+      </section>
+
+      <div class="new">
+        <div class="new__heading">
+          <h2>New</h2>
+        </div>
+
+        <div class="art">
+          <h3>Hydrogen VS Electric Cars</h3>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+
+        <div class="art">
+          <h3>The Downsides of AI Artistry</h3>
+          <p>What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+
+        <div class="art">
+          <h3>Is VC Funding Drying Up?</h3>
+          <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+      </div>
+    </section class="main_content">
+
+    <footer>
+      <div class="footer__art">
+
+        <div class="img__footer__art">
+          <img src="./assets/images/image-retro-pcs.jpg" alt="Retro PC">
+        </div>
+
+        <div class="desc__footer__art">
+          <h3>01</h3>
+          <h4>Reviving Retro PCs</h4>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </div>
+
+      </div>
+
+      <div class="footer__art">
+
+        <div class="img__footer__art">
+          <img src="./assets/images/image-top-laptops.jpg" alt="Keyboard">
+        </div>
+
+        <div class="desc__footer__art">
+          <h3>02</h3>
+          <h4>Top 10 Laptops of 2022</h4>
+          <p>Our best picks for various needs and budgets.</p>
+        </div>
+
+      </div>
+
+      <div class="footer__art">
+
+        <div class="img__footer__art">
+          <img src="./assets/images/image-gaming-growth.jpg" alt="Game Pad">
+        </div>
+
+        <div class="desc__footer__art">
+          <h3>03</h3>
+          <h4>The Growth of Gaming</h4>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </div>
+
+      </div>
+    </footer>
+
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/CurseTommy" target="_blank">Tomasz</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
