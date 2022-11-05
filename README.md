@@ -1,5 +1,7 @@
 # Frontend Mentor - News homepage
 
+https://cursetommy.github.io/CHALLENGE-HUB-News-homepage/
+
 ![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
