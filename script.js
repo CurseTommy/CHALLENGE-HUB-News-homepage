@@ -13,5 +13,4 @@ menuOpen.addEventListener('click', function () {
 menuClose.addEventListener('click', function () {
     menu.classList.remove('active');
     dimmingBlock.classList.remove('active');
-
 })
